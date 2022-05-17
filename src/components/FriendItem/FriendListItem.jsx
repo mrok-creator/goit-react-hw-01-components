@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
-// {
-//   avatar, name, isOnline;
-// }
+
+// import s from './friendListItem.module.css';
 function FriendsListItem({ friend }) {
-  const offline = `${friend.isOnline ? 'offline' : ' '}`;
+  // const offline = `${friend.isOnline ? 'offline' : ' '}`;
   return (
     <li className="item">
       <span className="status {offline}"></span>
