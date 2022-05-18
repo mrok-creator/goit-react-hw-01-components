@@ -6,7 +6,7 @@ import TransactionHistory from 'components/TransactionHistory';
 import user from 'json-data/user';
 import data from 'json-data/data';
 import friends from 'json-data/friends';
-import transactions from 'json-data/transactions';
+import item from 'json-data/transactions';
 
 export const App = () => {
   return (
@@ -21,7 +21,7 @@ export const App = () => {
       <Statistic title="Upload stats" stats={data} />
       <Statistic stats={data} />
       <FriendList friends={friends} />
-      <TransactionHistory transaction={transactions} />
+      <TransactionHistory transaction={item} />
     </>
   );
 };

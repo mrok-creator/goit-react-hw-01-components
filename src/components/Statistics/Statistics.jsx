@@ -28,7 +28,7 @@ Statistic.propTypes = {
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
     })
-  ).isRequired,
+  ),
   title: PropTypes.string,
 };
 

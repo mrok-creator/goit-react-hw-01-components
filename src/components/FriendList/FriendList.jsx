@@ -8,7 +8,12 @@ function FriendsList({ friends }) {
   return (
     <ul className={s.friendList}>
       {friends.map(i => (
-        <FriendsListItem key={i.id} friend={i} />
+        <FriendsListItem
+          key={i.id}
+          isOnline={i.isOnline}
+          avatar={i.avatar}
+          name={i.name}
+        />
       ))}
     </ul>
   );
